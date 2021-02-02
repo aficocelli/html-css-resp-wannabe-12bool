@@ -1,27 +1,36 @@
-.row {
-  width: 992px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-}
 
+body{
+  background-color: #bcf3d0;
+}
 /* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
-  width: 50%;
-  float: left;
-}
 
-#lezioni .row img {
-  /* per centrare orizzontalmente */
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#lezioni {
+.container {
   text-align: center;
+  
 }
+.container h2{
+  font-size: 44px;
+  margin-top: 30px;
+}
+
+#lezioni .col-lg-6{
+
+  padding: 70px;
+}
+
+#lezioni .col-lg-6 h3{
+
+  margin: 15px 0;
+  font-size: 32px;
+}
+
+#lezioni .col-lg-6 p{
+
+  line-height: 24px;
+  font-size: 18px;
+
+}
+
 
 /* BLOCCO STEPS */
 #steps .row>.left,
