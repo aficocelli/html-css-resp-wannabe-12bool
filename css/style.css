@@ -1,10 +1,21 @@
 
+/* MIX */
+
 body{
   background-color: #bcf3d0;
 }
 
 .container {
   text-align: center;
+}
+
+.img-box{
+  height: 150px;
+}
+
+[class*="col-xs"] h3
+{
+  margin-bottom: 20px;
 }
 /* BLOCCO LEZIONI */
 
@@ -17,10 +28,8 @@ body{
 }
 
 /* fomrattazione immagini */
-#lezioni .img-lezioni{
-  height: 150px;
-}
-.img-lezioni img{
+
+.img-box img{
   height: 100%;
 }
 /* /fomrattazione immagini */
@@ -29,7 +38,7 @@ body{
 
 .container h2{
   font-size: 44px;
-  margin-top: 30px;
+  margin: 40px 0;
 }
 
 #lezioni .col-lg-6 h3{
@@ -51,25 +60,31 @@ body{
 
 
 
-
-
-
-
-
-
-
-
 /* BLOCCO STEPS */
-/* #steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
+
+#steps .img-box {
+  margin: 20px 0;
 }
 
-#steps {
-  text-align: center;
-} */
+#steps .col-lg-4{
+  padding: 24px;
+}
+
+/* text layout */
+
+#steps .col-lg-4 h3{
+  margin-bottom: 20px;
+  font-size: 38px;
+}
+
+#steps .col-lg-4 p{
+  font-size: 22px;
+}
+
+
+
+
+
 
 /* BLOCCO PERCHE */
 /* #why {
