@@ -82,26 +82,27 @@ body{
 }
 
 
+/* BLOCCO WHY */
 
-
-
-
-/* BLOCCO PERCHE */
-/* #why {
-  text-align: center;
+#why .img-box{
+  margin: 40px 0;
 }
-
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
-  margin-top: 80px;
-}
-
-#why .row img {
+#why img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
-} */
+}
 
-/* COMMON */
+#why .col-lg-12 h3{
+  font-size:38px;
+  margin: 20px 0;
+}
+
+#why .col-lg-12 p{
+  font-size:22px;
+  margin: 20px 0;
+}
+
+#why .col-md-12{
+  padding: 0 100px;
+}
